@@ -1,0 +1,26 @@
+{
+    "name": "SinricProRemoteDevice",
+    "version": "0.0.1",
+    "authors": {
+        "name": "Boris Jaeger",
+        "email": "sivar2311@gmail.com",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sivar2311/SinricProRemoteDevice.git"
+    },
+    "description": "Remote control SinricPro devices",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "dependencies": {
+        "bblanchon/ArduinoJson": "^7.0.0"
+    },
+    "examples": [
+        {
+            "name": "toggleDevice",
+            "base" : "examples/toggleDevice",
+            "files" : "toggleDevice.cpp"
+        }
+    ]
+}
