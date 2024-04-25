@@ -20,7 +20,7 @@
         {
             "name": "toggleDevice",
             "base" : "examples/toggleDevice",
-            "files" : "toggleDevice.cpp"
+            "files" : ["toggleDevice.cpp"]
         }
     ]
 }
